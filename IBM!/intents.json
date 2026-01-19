@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "climate_change",
+      "patterns": ["what is climate change", "explain climate change"],
+      "responses": ["Climate change refers to long-term changes in temperature and weather patterns."]
+    },
+    {
+      "tag": "global_warming",
+      "patterns": ["what is global warming", "causes of global warming"],
+      "responses": ["Global warming is mainly caused by greenhouse gases like CO₂."]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["bye", "exit"],
+      "responses": ["Goodbye!", "Take care 🌱"]
+    }
+  ]
+}
